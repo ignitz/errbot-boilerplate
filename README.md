@@ -23,7 +23,9 @@ mv err-backend-slackv3 venv/lib/python3.9/site-packages/errbot/backends/
 First import environment variables:
 
 ```
+set -a
 source .env
+set +a
 ```
 
 Run:

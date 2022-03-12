@@ -15,4 +15,4 @@ BOT_EXTRA_PLUGIN_DIR = os.path.join(os.path.dirname(__file__), "plugins")
 BOT_LOG_FILE = os.path.join(os.path.dirname(__file__), "errbot.log")
 BOT_LOG_LEVEL = logging.DEBUG
 
-BOT_ADMINS = ((f"@{os.getenv('ADMIN', 'yuri')}",), )
+BOT_ADMINS = (f"@{os.getenv('ADMIN', 'yuri')}", )
