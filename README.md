@@ -18,7 +18,15 @@ mv err-backend-slackv3 venv/lib/python3.9/site-packages/errbot/backends/
 # Attention: Change python3.9 to your Python version that are you using.
 ```
 
-Run
+## Usage
+
+First import environment variables:
+
+```
+source .env
+```
+
+Run:
 
 ```shell
 # Run in console
